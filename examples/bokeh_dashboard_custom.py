@@ -16,10 +16,6 @@ from bokeh.palettes import Blues
 from bokeh.models import BasicTicker, ColorBar, LinearColorMapper, PrintfTickFormatter, ContinuousColorMapper
 from math import pi
 
-# mapper = LinearColorMapper(palette="Cividis256", low=-1, high=1) #Blues[256][::-1]
-# mapper
-
-
 checkbox_options = [
     'mean radius', 'mean texture', 'mean perimeter', 'mean area', 'mean smoothness'
 ]
